@@ -1,0 +1,22 @@
+repositories:
+  # Keep moveit_* repos here because they are released with moveit
+  geometric_shapes:
+    type: git
+    url: https://github.com/moveit/geometric_shapes.git
+    version: 4f65a3819edc39f9040c5ce28f2bdc17037b7085
+  moveit_msgs:
+    type: git
+    url: https://github.com/moveit/moveit_msgs.git
+    version: ec3ba4bfa2ec37df576bcf7a087e5a4ab88d79a4
+  moveit_resources:
+    type: git
+    url: https://github.com/moveit/moveit_resources.git
+    version: ef5836ddf4d6a7773cee895a675bfa852a3798f6
+  srdfdom:
+    type: git
+    url: https://github.com/moveit/srdfdom.git
+    version: 148991adf4b3519f3f642f54a13423ab46e7e703
+  generate_parameter_library:
+    type: git
+    url: https://github.com/PickNikRobotics/generate_parameter_library.git
+    version: f0d9819b0e6875d3e6e6dd66846b76aa72159d50
